@@ -88,7 +88,8 @@ public class Bacata {
         System.out.println(TBL.getEstadoBeneficios()[1]);
         System.out.println("Redimi mi beneficio 2, tengo derecho a volverlo a usar?");
         TBL.redimirBeneficios(1); //Redimi el beneficio
-        System.out.println(TBL.getEstadoBeneficios()[1]);        
+        System.out.println(TBL.getEstadoBeneficios()[1]);    
+        System.out.print("Yes");     
         
     }
 }
